@@ -258,6 +258,7 @@ input[type=email]{
 	}
 	ul li{
 		border: none;
+		text-align: left;
 	}
 	ul{
 		width: 100%;
