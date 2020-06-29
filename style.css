@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+header{
+	background: #000000;
+	padding: 20px;
+	padding-top: 5px;
+}
+body{
+	background-color: #000000;
+	background: url("http://4.bp.blogspot.com/-v2hjqx1JDwU/Ub9UzEexkLI/AAAAAAAAFNI/5j33o6bae4c/s1600/watercolor-splatter-background-for-websites.jpg");
+	margin-bottom: 200px;
+	padding-bottom: 200px;
+}
+nav{
+	width: 100%;
+	background: #000000;
+}
+ul{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 2%;
+	border-bottom: 3px solid white;
+	border-top: 3px solid white;
+	background: transparent;
+	margin-left: 10%;
+}
+ul li:hover{
+	background: #ffffff;
+	color: #000000;
+}
+ul li a:hover{
+	color: #000000;
+}
+ul li a{
+	text-decoration: none;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 110%;
+	width: 15%;
+	height: 30px;
+	text-align: center;
+	font-family: 'Kalam', cursive;
+}
+.toggle{
+	width: 100%;
+	background: #000000;
+	text-align: right;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 25px;
+	display: none;
+}
+
+h1{
+	padding-left: 0.75em;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size:250%;
+}
+.big{
+	color: black;
+	font-size: 300%;
+	font-family: 'Dancing Script', cursive;
+}
+h2{
+	font-family: 'Dancing Script', cursive;
+	font-size: 200%;
+}
+.ownpic{
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-o-border-radius: 100%;
+	border-radius: 100%;
+	padding: 5%;
+	width: 30%;
+	display: inline-block;
+}
+p{
+	color: black;
+	font-size: 140%;
+	font-family: 'Kalam', cursive;
+}
+.about{
+	background-color: rgba(255,255,255,0.3);
+	border: 2px solid white;
+	padding: 2%;
+	text-align: center;
+	margin-top: 4%;
+	width:50%;
+	display: inline-block;
+}
+footer{
+	background-color: #000000;
+	text-align: center;
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+.slider-container{
+	max-width: 500px;
+	margin:40px auto;
+	border:5px solid #000000;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider-container .item img{
+	width: 100%;
+	display: block;
+}
+.slider-container .slider-items{
+	overflow: hidden;
+	transition: margin 1s ease;
+}
+.slider-container .item {
+	position: relative;
+	float: left;
+}
+.slider-container .item .caption{
+  position: absolute;
+  bottom:0;
+  left:0; 
+  width: 100%;
+  background-color: rgba(0,0,0,.6);
+  color:#ffffff;
+  font-size: 30px;
+  padding:30px 15px;
+}
+
+.slider-container .prev-slide{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	color:#ffffff;
+	background-color:#000000;
+	border-radius:50%;
+	left:20px;
+	top:50%;
+	margin-top: -20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.slider-container .next-slide{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	color:#ffffff;
+	background-color:#000000;
+	border-radius:50%;
+	right:20px;
+	top:50%;
+	margin-top: -20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.insta{
+	color: white;
+}
+.exp{
+	display: inline-block;
+	width: 40%;
+	background-color: rgba(255,255,255,0.5);
+	border: 2px solid white;
+	float:left;
+	margin-left: 5%;
+	text-align: center;
+	margin-top: 4%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+#ED{
+	margin-bottom: 200px;
+}
+input[type=text], select, textarea {
+	font-family: 'Kalam', cursive;
+   width: 100%;
+   padding: 2%;
+   border: 1px solid #000;
+   border-radius: 4px; 
+   box-sizing: border-box; 
+   margin-top: 1%; 
+   margin-bottom: 4%; 
+   resize: vertical;
+}
+input[type=email]{
+	font-family: 'Kalam', cursive;
+   width: 100%;
+   padding: 2%;
+   border: 1px solid #000;
+   border-radius: 4px; 
+   box-sizing: border-box; 
+   margin-top: 1%; 
+   margin-bottom: 4%; 
+   resize: vertical;
+}
+.btn{
+	font-family: 'Kalam', cursive;
+   background-color: #000000;
+   color: white;
+	font-size: 115%;
+   padding: 2%;
+   border: none;
+   cursor: pointer;
+}
+.btn:hover {
+   background-color: #333333;
+}
+.container {
+	font-family: 'Kalam', cursive;
+   background-color: rgba(255,255,255,0.5);
+	border: 2px solid white;
+	padding: 2%;
+	margin-top: 4%;
+	width: 85%;
+	margin-left: 5%;
+}
+.social{
+	text-align: center;
+}
+.social i{
+	margin:3%;
+}
+.php{
+	margin: 20%;
+	text-align: center;
+	font-weight: bold;
+}
+@media(max-width:768px)
+{
+	.toggle{
+		display: block;
+	}
+	ul li a{
+		color: #ffffff;
+		font-size: 110%;
+		font-family: 'Kalam', cursive;
+		border: none;
+		background: transparent;
+		padding: 0;
+		margin: 0;
+		height: 20px;
+	}
+	ul li{
+		border: none;
+	}
+	ul{
+		width: 100%;
+		display: none;
+	}
+	ul li{
+		display: block;
+		text-align: center;
+	}
+	.active{
+		display: block;
+	}
+	.ownpic{
+		display: block;
+		margin-left: auto;
+  		margin-right: auto;
+	}
+	.about{
+		display: block;
+		margin: auto;
+	}
+	.exp{
+		display: block;
+		float: initial;
+		width: 90%;
+	}
+	#ED{
+		margin-bottom: 0;
+	}
+}
+
