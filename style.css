@@ -289,4 +289,12 @@ input[type=email]{
 		margin-bottom: 0;
 	}
 }
-
+@media(min-width:1025)
+{
+	.exp{
+		display:inline-block;
+		float: left;
+		width: 43%;
+		margin: 5%;
+	}	
+}
