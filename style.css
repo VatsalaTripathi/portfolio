@@ -292,9 +292,9 @@ input[type=email]{
 @media(min-width:1025)
 {
 	.exp{
-		display:inline-block;
-		float: left;
-		width: 43%;
+		display: block;
+		clear: both;
+		width: 90%;
 		margin: 5%;
 	}	
 }
