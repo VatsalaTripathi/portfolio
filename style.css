@@ -295,5 +295,8 @@ input[type=email]{
 		display: block;
 		float: initial;
 		width: 90%;
-	}	
+	}
+	#ED{
+		margin-bottom: 0;
+	}
 }
